@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/skyblue">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/question_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your question"
+            android:textSize="18sp"
+            android:layout_marginBottom="16dp" />
+
+        <LinearLayout
+            android:id="@+id/options_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <!-- Initially one option field -->
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/add_option_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add option"
+            android:textColor="@color/white"
+            android:layout_marginTop="16dp" />
+
+        <Button
+            android:id="@+id/vote_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start Vote"
+            android:textColor="@color/white"
+            android:layout_marginTop="16dp" />
+
+    </LinearLayout>
+</ScrollView>

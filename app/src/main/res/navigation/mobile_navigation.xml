@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.gsfcadminapp.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_announcements"
+        android:name="com.example.gsfcadminapp.ui.announcements.AnnouncementsFragment"
+        android:label="Announcements"
+        tools:layout="@layout/fragment_announcements" />
+
+    <fragment
+        android:id="@+id/nav_policy"
+        android:name="com.example.gsfcadminapp.ui.policy.PolicyFragment"
+        android:label="Documents"
+        tools:layout="@layout/fragment_policy" />
+
+    <fragment
+        android:id="@+id/nav_vote"
+        android:name="com.example.gsfcadminapp.ui.vote.VoteFragment"
+        android:label="Policy"
+        tools:layout="@layout/fragment_vote" />
+
+    <fragment
+        android:id="@+id/nav_contacts"
+        android:name="com.example.gsfcadminapp.ui.contacts.ContactsFragment"
+        android:label="Contacts"
+        tools:layout="@layout/fragment_contacts" />
+
+</navigation>

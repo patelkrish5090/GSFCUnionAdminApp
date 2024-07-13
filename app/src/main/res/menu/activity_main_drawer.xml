@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_announcements"
+            android:icon="@drawable/ic_baseline_announcement_24"
+            android:title="Announcements" />
+        <item
+            android:id="@+id/nav_policy"
+            android:icon="@drawable/ic_baseline_policy_24"
+            android:title="Documents" />
+        <item
+            android:id="@+id/nav_vote"
+            android:icon="@drawable/ic_baseline_vote_24"
+            android:title="Vote" />
+        <item
+            android:id="@+id/nav_contacts"
+            android:icon="@drawable/ic_baseline_contact_page_24"
+            android:title="Contacts" />
+    </group>
+</menu>
